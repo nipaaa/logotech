@@ -1,0 +1,40 @@
+import React from 'react';
+
+const Menubar = () => {
+    const menuItem = <>
+        <li><a>Home</a></li>
+        <li><a>Service</a></li>
+        <li><a>Portfolio</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Company</a></li>
+    </>
+
+    return (
+        <div>
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-blue-800 rounded-box w-52">
+                        {menuItem}
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost normal-case text-xl">LogoTech</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal p-0">
+                        {menuItem}
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="border px-2 rounded text-white mr-4">Sign Up</a>
+                    <a class="border bg-white text-blue-600 px-2 rounded">Login</a>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Menubar;
