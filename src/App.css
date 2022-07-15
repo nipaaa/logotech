@@ -3,14 +3,15 @@
   background-size: cover;
 }
 .services{
-  position: absolute;
-  background-image: url('../public/images/service1.svg');
-  background-position: top left;
+  background-image: url('../public/images/service1.svg'),url('../public/images/service2.svg');
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+}
+.icon-bg{
+  background-image: url('../public/images/icon/icon-bg.png');
   background-repeat: no-repeat;
 }
-.service{
-  position: relative;
-  background-image: url('../public/images/service2.svg');
-  background-position: bottom right;
-  background-repeat: no-repeat;
+
+.footer{
+  margin-top: -150px;
 }

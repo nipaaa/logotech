@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header'
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
@@ -9,6 +10,7 @@ function App() {
         <Header></Header>
         <Services></Services>
         <Portfolio></Portfolio>
+        <Footer></Footer>
 
        {/* <Routes>
         <Route path="/" element={<Home />} />
