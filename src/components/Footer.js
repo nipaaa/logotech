@@ -23,9 +23,9 @@ const Footer = () => {
                             <img className='bg-white p-2 rounded-lg ' src="images/contact/contact-1.png" alt="" />
                         </div>
                         <div>
-                            <p>Call Us</p>
-                            <p>+880 178565</p>
-                            <p>+880 178565</p>
+                            <p className='text-xl'>Call Us</p>
+                            <p>+880 157521452</p>
+                            <p>+880 373737324</p>
                         </div>
                     </div>
                     <div className='flex mx-auto'>
@@ -33,9 +33,9 @@ const Footer = () => {
                             <img className='bg-white p-2 rounded-lg ' src="images/contact/contact-2.png" alt="" />
                         </div>
                         <div>
-                            <p>Call Us</p>
-                            <p>+880 178565</p>
-                            <p>+880 178565</p>
+                            <p className='text-xl'>Email Us</p>
+                            <p>support@logotech.com</p>
+                            <p>logotech@gmail.com</p>
                         </div>
                     </div>
                     <div className='flex mx-auto'>
@@ -43,15 +43,24 @@ const Footer = () => {
                             <img className='bg-white p-2 rounded-lg ' src="images/contact/contact-3.png" alt="" />
                         </div>
                         <div>
-                            <p>Call Us</p>
-                            <p>+880 178565</p>
-                            <p>+880 178565</p>
+                            <p className='text-xl'>Locations</p>
+                            <p>Middle Sha Ali Bag, Mirpur</p>
+                            <p>Dhaka, Bangladesh</p>
                         </div>
                     </div>
                    
                 </div>
-                <hr />
-            <p className='text-center'> copyright</p>
+                <hr className='my-12' />
+                <div className='text-center'>
+                <p> copyright@LogoTech 2022 all the right reserved | Designed by LogoTech</p>
+                <div className='text-2xl my-4'>
+                <a href="" target={'_blank'} rel='noreferrer'><i class="fa-brands fa-facebook-square mr-4"></i> </a>
+                        <a href="" target={'_blank'} rel='noreferrer'><i class="fa-brands fa-twitter-square mr-4"></i> </a>
+                        <a href="" target={'_blank'} rel='noreferrer'><i class="fa-brands fa-instagram-square mr-4"></i> </a>
+                        <a href="" target={'_blank'} rel='noreferrer'> <i class="fa-brands fa-github-square"></i></a>
+                </div>
+
+                </div>
             </div>
             
         </div>

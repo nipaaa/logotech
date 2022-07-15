@@ -13,6 +13,12 @@ const Banner = () => {
                             <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
                             <button class="ml-4 inline-flex items-center text-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><i class="mr-2 fa-solid fa-paper-plane"></i>Contact Us</button>
                         </div>
+                        <div className='text-2xl my-4'>
+                <a href="" target={'_blank'} rel='noreferrer'><i class="fa-brands fa-facebook-square mr-4"></i> </a>
+                        <a href="" target={'_blank'} rel='noreferrer'><i class="fa-brands fa-twitter-square mr-4"></i> </a>
+                        <a href="" target={'_blank'} rel='noreferrer'><i class="fa-brands fa-instagram-square mr-4"></i> </a>
+                        <a href="" target={'_blank'} rel='noreferrer'> <i class="fa-brands fa-github-square"></i></a>
+                </div>
                     </div>
                     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                         <img class="object-cover object-center rounded" alt="hero" src="images/Group 23.svg"/>
