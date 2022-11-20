@@ -83,7 +83,7 @@ const Testimonial = () => {
 
 
   return (
-    <div className='container mx-auto py-24'>
+    <div className='container mx-auto py-24 px-2'>
       <h1 className='text-xl text-blue-600'>Testimonial</h1>
       <p className='text-3xl text-blue-900 font-bold'>What our customers says <br /> about us</p>
       <Carousel
@@ -91,7 +91,7 @@ const Testimonial = () => {
         {
           testimonials.map((testimonial, index) => <div
             key={index}
-            className="rounded-xl shadow-xl shadow-blue-200 m-8 p-4">
+            className="rounded-xl shadow-xl shadow-blue-200 mx-auto m-8 p-4">
             <img className='py-2 w-8' src="/images/quote.svg" alt="" />
             <p>{testimonial.feedback}</p>
 

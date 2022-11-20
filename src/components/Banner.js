@@ -11,7 +11,7 @@ const Banner = () => {
                         <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
                         <div class="flex justify-center">
                             <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn More</button>
-                            <button class="ml-4 inline-flex items-center text-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><i class="mr-2 fa-solid fa-paper-plane"></i>Contact Us</button>
+                            <button class="ml-4 hover:bg-transparent inline-flex items-center text-white border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"><i class="mr-2 fa-solid fa-paper-plane"></i>Contact Us</button>
                         </div>
                         <div className='text-2xl my-4'>
                 <a href="" target={'_blank'} rel='noreferrer'><i class="fa-brands fa-facebook-square mr-4"></i> </a>

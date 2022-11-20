@@ -153,16 +153,16 @@ const Team = () => {
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
-            items: 2
+            items: 3
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
-            items: 1
+            items: 2
         }
     };
 
     return (
-        <div className='container mx-auto py-24'>
+        <div className='container mx-auto py-24 px-2'>
             <h1>Our team</h1>
             <p className='text-xl mb-6'>Meet our team members</p>
 

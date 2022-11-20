@@ -33,7 +33,7 @@ const Services = () => {
         <div className='container mx-auto py-20'>
             <h1 className='text-center text-3xl font-bold pb-12'>Our Services</h1>
 
-            <div className='grid lg:grid-cols-4 sm:grid-cols-1 gap-5'>
+            <div className='grid lg:grid-cols-4 sm:grid-cols-1 gap-5 p-3'>
             {
                 services.map(service => <div
                 key={service.id}
