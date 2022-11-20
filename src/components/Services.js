@@ -38,8 +38,8 @@ const Services = () => {
                 services.map(service => <div
                 key={service.id}
                 className='px-4 py-20 border rounded-lg drop-shadow-lg services service'>
-                    <div className='flex justify-end items-center'>
-                    <img className='icon-bg p-6' src={service.icon} alt="service logo" />
+                    <div className='flex justify-end'>
+                    <img className='flex justify-center icon-bg p-6' src={service.icon} alt="service logo" />
                     </div>
                     <h2 className='text-end text-xl py-2'>{service.title}</h2>
                     <p>{service.detail}</p>
